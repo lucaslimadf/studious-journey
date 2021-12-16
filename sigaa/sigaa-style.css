@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 11px;
+    font-family: Verdana, sans-serif;
+    background: url(/images/background-sigaa.jpg) repeat-y center;
+}
+
+.all-content {
+    height: 100vh;
+    width: 72.3vw;
+    margin: auto;
+}
+
+.header {
+    background-color: #394674;
+    color: white;
+    border-bottom: 3px solid #D99C44;
+}
+
+h1 {
+    padding: 0 0.3em;
+    font-weight: normal;
+    font-size: 1.05em;
+}
+
+h1 b {
+    font-family: Arial;
+    font-size: 1.3em;
+    letter-spacing: .09em;
+    margin-right: .55em;
+}
+
+h1 span {
+    font-size: 1.066em;
+    /* word-spacing: 0.28em; */
+}
+
+.null-box {
+    height: 3.55vw;
+    background-color: #C4D2EB;
+}
+
+.text-box {
+    background-color: #EFF3FA;
+    text-align: center;
+    padding: .9em 1.2em;
+    margin-bottom: 1.5vh;
+}
+
+.text-box p {
+    width: 52vw;
+    margin: auto;
+    /* border: 1px red solid; */
+}
+
+.text-box p b {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0.3em;
+}
+
+table td {
+    background-color: #EFF3FA;
+    width: 24vw;
+    text-align: center;
+    padding: 0.45em;
+    font-size: 1.01em;
+}
+
+/* table td:hover {
+    background-color: #dee9fa;
+
+} */
+
+td.sigaa {
+    background-color: #FEFAE4;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #003395;
+}
+
+section.recuperation {
+    text-align: center;
+    padding: 2.2em 0;
+    word-spacing: .1vh;
+}
+
+form {
+    background-color: #FAFAFA;
+    text-align: center;
+    width: 50%;
+    border-top: 3px solid #C8D5EC;
+    border-bottom: 3px solid #C8D5EC;
+    border-left: 1px solid #C8D5EC;
+    border-right: 1px solid #C8D5EC;
+    margin: auto;
+
+}
+
+section.user, section.pass {
+    width: 16vw;
+    margin: 0 7vw;
+    text-align: right;
+    padding: .3em;
+}
+
+input, button {
+    border: 1px solid rgb(170, 170, 170);
+}
+
+input {
+    width: 10vw;
+}
+
+button {
+    padding: .1em .5em;
+    font-size: 1em;
+    margin: .3em
+}
+
+.login-h2 {
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    width: 50%;
+    background-color: #C8D5EC;
+    text-align: center;
+    font-size: 1.2em;
+    color: #453D66;
+    margin-top: 2.5vh;
+    padding: .1em;
+}
+
+section.register {
+    display: flex;
+    height: 21vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.register p {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+section.register img {
+    width: 16px;
+    height:16px;
+}
+
+.footer {
+    background-color: #394674;
+    color: white;
+    border-top: 3px solid #D99C44;
+    padding: .4em .3em;
+    font-size: .93em;
+    text-align: center;
+}
