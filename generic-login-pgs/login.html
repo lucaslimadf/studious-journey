@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="author" content="Lucas de Lima">
+        <meta name="description" content="Faça seu login com seu email ou com suas redes sociais.">
+        <meta name="keywords" content="Login page, OAuth, Facebook Auth">
+
+        <link rel="stylesheet" href="/login-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+
+        <title>Faça seu Login</title>
+    </head>
+
+    <body>
+        <div class="login-box">
+            <form>
+
+                <h1>Login</h1>
+                <section class="email">
+                    <label for="login-email-input" class="login-input">Email:<br></label>
+                    <input type="email" name="email" id="login-email-input" autocomplete="username" placeholder="Digite seu melhor email" tabindex="1"><br>
+                </section>
+
+                <section class="pass">
+                    <label for="login-pass-input" class="login-input">Senha:<br></label>
+                    <input type="password" name="password" id="login-pass-input" autocomplete="new-password" placeholder="Sua senha..." tabindex="2">
+                </section>
+
+                <input type="submit" value="Login" tabindex="3">
+
+                <p>Ou entre usando suas redes sociais</p>
+
+                <section>
+                    <a href="#" tabindex="4">
+                        <img src="./images/google-logo.png" alt="Google Login">
+                    </a>
+    
+                    <a href="#" tabindex="5">
+                        <img src="./images/facebook-logo.png" alt="Facebook Login">
+                    </a>
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
